@@ -1,0 +1,10 @@
+header h2 {
+  font-weight: 300;
+  color: aqua;
+  text-transform: capitalize;
+}
+
+header h1 {
+  font-weight: 300;
+  text-transform: capitalize;
+}

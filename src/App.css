@@ -1,12 +1,5 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -17,6 +10,18 @@
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+main {
+  width: 62%;
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+  color: red;
+  font-weight: 200;
+}
+
+.errorPrompt {
+  color: red;
+  font-weight: 200;
 }
