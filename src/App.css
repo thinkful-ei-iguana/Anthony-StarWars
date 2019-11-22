@@ -15,7 +15,7 @@ main {
   text-align: left;
 }
 
-h3 {
+.no-result {
   text-align: center;
   color: red;
   font-weight: 200;

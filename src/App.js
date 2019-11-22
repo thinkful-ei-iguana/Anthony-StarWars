@@ -49,7 +49,9 @@ class App extends React.Component {
       if (this.state.results.length > 0) {
         return <DisplayResults state={this.state} />;
       } else if (this.state.count === 0) {
-        return <h3>Sorry I don't know who or what that is.</h3>;
+        return (
+          <h3 className="no-result">Sorry I don't know who or what that is.</h3>
+        );
       } else {
         return "";
       }

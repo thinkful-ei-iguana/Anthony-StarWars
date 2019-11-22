@@ -24,7 +24,7 @@ export default class SearchForm extends React.Component {
           <input
             type="text"
             id="searchTerm"
-            placeholder="Skywalker (Optional)"
+            placeholder="Enter your search term (Optional)"
           />
           <button id="submitBtn">search</button>
         </form>
